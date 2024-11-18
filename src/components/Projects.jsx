@@ -1,13 +1,20 @@
 import {PROJECTS} from '../constants'
+import {motion} from 'framer-motion'
 
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-        <h2 className="my-20 text-center text-4xl">Projects</h2>
+        <motion.h2 
+        whileInView={{opacity:1, y:0}}
+        initial={{y:-100, opacity:0 }}
+        transition={{duration: 1}}
+        className="my-20 text-center text-4xl">Projects</motion.h2>
         <div>
             {
                 PROJECTS.map((project, index) => (
-                        <div key={index} className='mb-8 flex flex-wrap lg:justify-center gap-16'>
+                        <motion.div whileInView={{opacity:1, y:0}}
+                        initial={{y:-100, opacity:0 }}
+                        transition={{duration: 1}} key={index} className='mb-8 flex flex-wrap lg:justify-center gap-16'>
                             <div className="w-full lg:w-1/4">
                                 <img className='w-[27rem] rounded-md' src={project.image} alt={project.title} />
                             </div>
@@ -20,7 +27,7 @@ const Projects = () => {
                                 ))
                             }
                             </div>                            
-                        </div>
+                        </motion.div>
                 ))
             }
             
