@@ -9,32 +9,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "June 2023 - July 2023",
+    role: "Internee - Machine Learning",
+    company: "UET Lahore New Campus.",
+    description: `Understanding the fundamental concepts and principles of Machine Learning is essential, including the foundations of supervised and unsupervised learning. This involves exploring and implementing various classification algorithms such as K-Nearest Neighbors, Naïve Bayes, Support Vector Machines, and Decision Trees, as well as studying clustering techniques like K-means and hierarchical clustering. Additionally, applying data cleaning techniques enhances dataset quality, ensuring better analysis and model performance.`,
+    technologies: ["Python", "ML Algorithms", "Pandas", "Numpy", "sklearn", "matplotlib"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Freelancer",
+    company: "Fiverr",
+    description: `Developed and delivered web applications with a focus on JavaScript, React.js, and Node.js. Designed and optimized database solutions using MongoDB to ensure efficient data handling. Collaborated with clients to gather requirements, prioritize features, and deliver tailored solutions. Additionally working on cpp, python, java.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "MongoDB", "C++", "Python", "java"],  
+    year: "2024 - Present",
   },
 ];
 
