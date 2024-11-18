@@ -20,8 +20,16 @@ const iconVaraints = (duration) => ({
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
-        <h2 className="my-[4rem] text-center text-4xl">Technologies</h2>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <motion.h2
+        whileInView={{opacity:1, y:0}}
+        initial={{y:-100, opacity:0 }}
+        transition={{duration: 1}}
+        className="my-[4rem] text-center text-4xl">Technologies</motion.h2>
+        <motion.div 
+        whileInView={{opacity:1, x:0}}
+        initial= {{x:-100, opacity:0}}
+        transition= {{duration: 1.5}}        
+        className="flex flex-wrap items-center justify-center gap-4">
             <motion.div variants={iconVaraints(1.5)}
                 initial="initial"
                 animate="animate"
@@ -42,10 +50,8 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaNodeJs className="text-4xl text-green-500"/>
-            </motion.div>
-            
-            
-        </div>
+            </motion.div>           
+        </motion.div>
     </div>
   )
 }
