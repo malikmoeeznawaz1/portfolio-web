@@ -13,14 +13,36 @@ export const EXPERIENCES = [
     role: "Internee - Machine Learning",
     company: "UET Lahore New Campus.",
     description: `Understanding the fundamental concepts and principles of Machine Learning is essential, including the foundations of supervised and unsupervised learning. This involves exploring and implementing various classification algorithms such as K-Nearest Neighbors, Naïve Bayes, Support Vector Machines, and Decision Trees, as well as studying clustering techniques like K-means and hierarchical clustering. Additionally, applying data cleaning techniques enhances dataset quality, ensuring better analysis and model performance.`,
-    technologies: ["Python", "ML Algorithms", "Pandas", "Numpy", "sklearn", "matplotlib"],
+    technologies: [
+      "Python",
+      "ML Algorithms",
+      "Pandas",
+      "Numpy",
+      "sklearn",
+      "matplotlib",
+    ],
   },
   {
     role: "Freelancer",
     company: "Fiverr",
     description: `Developed and delivered web applications with a focus on JavaScript, React.js, and Node.js. Designed and optimized database solutions using MongoDB to ensure efficient data handling. Collaborated with clients to gather requirements, prioritize features, and deliver tailored solutions. Additionally working on cpp, python, java.`,
-    technologies: ["JavaScript", "React.js", "Node.js", "MongoDB", "C++", "Python", "java"],  
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "C++",
+      "Python",
+      "java",
+    ],
     year: "2024 - Present",
+  },
+  {
+    role: "Associate Software Engineer",
+    company: "GlowingSoft Technologies",
+    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js during the probation period. Collaborated with cross-functional teams to design and implement new features, ensuring high-quality code and adherence to best practices.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "MongoDB"],
+    year: "July 2025 - August 2025",
   },
 ];
 
@@ -31,13 +53,27 @@ export const PROJECTS = [
     description:
       "A visually appealing and responsive portfolio website showcasing personal projects and skills. Includes animations for enhanced user experience.",
     technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
-  },  
+  },
   {
     title: "Fitness Blender Website - Clone",
     image: project2,
     description:
       "A responsive clone of the Fitness Blender website, featuring an intuitive design and interactive elements to mimic the original functionality.",
     technologies: ["HTML", "Bootstrap CSS", "JavaScript"],
+  },
+  {
+    title: "Voice activated Music player",
+    image: project3,
+    description:
+      "A voice-activated music player application that allows users to play, pause, and skip tracks using voice commands.",
+    technologies: ["Python", "Speech Recognition", "tkinter", "pygame", "mp3"],
+  },
+  {
+    title: "pac man game - mazed based",
+    image: project4,
+    description:
+      "A maze-based Pac-Man game implemented in Python, featuring classic gameplay mechanics and enemies attacking the player.",
+    technologies: ["Python", "Pygame", "networkx"],
   },
 ];
 
